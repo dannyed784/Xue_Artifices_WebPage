@@ -1,3 +1,50 @@
+.container-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 30px;
+}
+
+.new-info {
+  grid-column: 1 / span 3;
+}
+
+.new-info article {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.new-info article p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
 .new-info img {
   display: block;
+  width: 25%;
+  /* margin: 0 auto; */
+}
+
+.titles-new-info {
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 20px;
+}
+
+.info-1 {
+  background-color: blueviolet;
+}
+
+.info-2 {
+  background-color: brown;
+}
+
+.info-3 {
+  background-color: green;
 }
