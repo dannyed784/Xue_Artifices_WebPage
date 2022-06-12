@@ -1,0 +1,62 @@
+header {
+  background-color: #252424;
+}
+
+header h1 {
+  color: var(--letter-color-header);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.nabvar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header img {
+  display: block;
+  width: 120px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header li {
+  margin: 0 20px;
+  display: inline-block;
+  position: relative;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--letter-color-header);
+}
+
+header ul li::before {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: var(--letter-color-header-animation);
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out;
+}
+
+header ul li:hover::before {
+  width: 100%;
+}
