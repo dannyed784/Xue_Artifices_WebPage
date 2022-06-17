@@ -1,12 +1,13 @@
 .container-info {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  gap: 30px;
+  background-image: url(/./img/background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
 }
 
 .new-info {
-  grid-column: 1 / span 3;
+  height: 500px;
 }
 
 .new-info article {
@@ -27,24 +28,12 @@
 
 .new-info img {
   display: block;
-  width: 25%;
+  width: 50%;
   /* margin: 0 auto; */
 }
 
 .titles-new-info {
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 3rem;
   padding: 20px;
-}
-
-.info-1 {
-  background-color: blueviolet;
-}
-
-.info-2 {
-  background-color: brown;
-}
-
-.info-3 {
-  background-color: green;
 }
