@@ -4,6 +4,10 @@
   background-position: center center;
   /* background-attachment: fixed; */
   background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .new-info {
@@ -16,20 +20,15 @@
 }
 
 .new-info article p {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 500;
   line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .img-container {
   display: flex;
   justify-content: center;
-}
-
-.new-info img {
-  display: block;
-  width: 50%;
-  /* margin: 0 auto; */
 }
 
 .titles-new-info {

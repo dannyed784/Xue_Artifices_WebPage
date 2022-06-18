@@ -1,4 +1,32 @@
 footer {
-  min-height: 100vh;
+  width: 100%;
+  background-color: var(--background-header);
+  text-align: center;
   color: #fff;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container p {
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+}
+
+.social-networks {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-networks li {
+  margin: 40px;
+  list-style: none;
+}
+
+.fab {
+  font-size: 30px;
 }
